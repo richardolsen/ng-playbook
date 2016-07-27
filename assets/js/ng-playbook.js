@@ -8,7 +8,7 @@ app.controller('coLearnCtrl', function($scope, $templateCache, $http, $sce) {
 
 	$scope.introduction = '';
 
-	var url = 'http://colearnmeetup.richard.local/playbook/includes/introduction.md';
+	var url = 'includes/introduction.md';
 
 	$http.get(url).then( function(result){
 
@@ -27,9 +27,9 @@ app.controller('coLearnCtrl', function($scope, $templateCache, $http, $sce) {
 
 	function getPlay(num) {
 		if ( num < 10 ) {
-			var url = 'http://colearnmeetup.richard.local/playbook/plays/0'+num+'.md';
+			var url = 'plays/0'+num+'.md';
 		} else {
-			var url = 'http://colearnmeetup.richard.local/playbook/plays/'+num+'.md';
+			var url = 'plays/'+num+'.md';
 		}
 
 		$http.get(url).then( function(result){
