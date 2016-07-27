@@ -13,5 +13,6 @@ Edit the plays folder to create your own plays. Play files need to be numbered s
 The introduction.md file found in the includes folder can also be edited using markdown.
 
 #To install
-Just copy all the files to the folder of your choices.
+Just copy all the files to the folder of your choice.
+
 Currently you will need to edit the url (which is my local test server) in the ng-playook.js file - this will be fixed soon.
